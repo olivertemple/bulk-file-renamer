@@ -10,7 +10,7 @@ layout = [
 [sg.Text("Naming Scheme:")],
 [sg.Button("File0001",key='scheme0'),sg.Button("File1",key='scheme1'),sg.Button("0001File",key='scheme2'),sg.Button("1File",key='scheme3')],
 [sg.Text("Start Numer: "), sg.Input(default_text=0, key='s')],
-[sg.Button("Execute"), sg.Text("Example: ", key='example')]
+[sg.Button("Execute")]
 ]
 
 window = sg.Window("Bulk File Renamer", layout,  resizable=True)
