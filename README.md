@@ -7,6 +7,6 @@ Run
 in the directory where the repository is cloned.
 
 # Usage
-To run this, either run the executable file in 'dist', or run main.py and a window will appear.
+To run this run main.py and a window will appear.
 
 <img src='example.png'>
